@@ -2,43 +2,53 @@
 ```markdown
 # Welcome to Krishna's Python Playground! 🐍
 
-Hey there! Welcome to my corner of GitHub where I store all my Python projects. Whether you're here out of curiosity or looking for some fun Python stuff, you're in the right place!
+Hey there! Welcome to my corner of GitHub where I store all my Python projects.
+ Whether you're here out of curiosity or looking for some fun Python stuff,
+you're in the right place!
 
 ## About Me
 
-👋 Hi, I'm Krishna, a 12th-grade student from the beautiful city of Lucknow, India. I'm passionate about programming, especially in Python.
+👋 Hi, I'm Krishna, a 12th-grade student or uhmm! just tool 12th Board So,
+ no more 12th-Grade Student untill result is declared.
+And I'm from the beautiful city of Lucknow, India. I'm passionate about
+ programming, especially in Python.
 
 ## Projects
 
 ### [1. Number to Words Converter](#number-to-words-converter)
 
-Ever wondered how to convert numbers into words? Look no further! With this handy Python script, you can easily convert any number into its word representation.
+Ever wondered how to convert numbers into words? Look no further!
+With this handy Python script, you can easily convert any number
+into its word representation.
 
 ### [2. Rock, Paper, Scissors Game](#rock-paper-scissors-game)
 
-Feeling competitive? Dive into the classic game of Rock, Paper, Scissors with this Python program. Test your luck against the computer and see who comes out on top!
+Feeling competitive? Dive into the classic game of Rock, Paper,
+Scissors with this Python program. Test your luck against the computer
+and see who comes out on top!
 
 ### [3. Personal Dictionary](#personal-dictionary)
 
-Expand your vocabulary with this Personal Dictionary Python script. It uses the NLTK library to provide definitions, synonyms, and antonyms for any word you enter.
+Expand your vocabulary with this Personal Dictionary Python script.
+ It uses the NLTK library to provide definitions, synonyms, and
+ antonyms for any word you enter.
 
 ### [4. Survey GUI App](#survey-gui-app)
 
-Add some fun to your day with this Survey GUI App built using Tkinter. Ask quirky questions and see the responses in real-time!
+Add some fun to your day with this Survey GUI App built using Tkinter.
+Ans quirky questions and see the responses in real-time!
 
 ### [5. Message Spammer](#message-spammer)
 
 Need to annoy your friends (or test a chat app's resilience)? This Python script lets you spam messages with random insults. Use it responsibly!
 
+### [6. QR Code Generato] (##qr-code-generator)
+
+Got a crush? Too shy to let your feelings out? Say no more! Our QR Code Generator is here to save the day. Create a QR code, print it out, and stick it right on your chest. Next time you see your crush, just point at your heart and say, “I’ve got a secret message for you, but you’ll need to scan to reveal it.” Who knows, your high-tech confession might just win their heart! 🥰
+
 ### [6. Link to Project Zip File](#link-to-project-zip-file) - Coming soon!
 
 Stay tuned for a downloadable zip file containing all my Python projects for your convenience.
-
-## How to Use
-
-1. Clone this repository to your local machine.
-2. Navigate to the project directory of your choice.
-3. Run the Python scripts using your preferred method (e.g., command line, IDE).
 
 ## Contributions
 
