@@ -1,9 +1,21 @@
+"""Must install them: 
+   -- pip install pyTelegramBotAPI
+   -- pip install qrcode[pil]
+
+Otherwise, your terminal will throw errors at you 
+like your mum throws slippers at you
+when you don't listen to her.
+
+And make sure to:
+Avoid errors in your terminal like dodging your mom's flying slippers! 😉
+"""
+
 import telebot
 import qrcode
 from PIL import Image
 
 # Initialize your Telegram bot using the API token
-bot = telebot.TeleBot('6877821362:AAHqjfOSBnpvmORuhR40u8JYZ6gh9gWH2hM')
+bot = telebot.TeleBot('Your-Telegram-API-goes-here')
 
 # Default colors
 default_foreground_color = "black"
