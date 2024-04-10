@@ -1,3 +1,4 @@
+Sure, here's the updated README with the code snippets placed right after the project descriptions:
 
 ```markdown
 # Welcome to Krishna's Python Playground! 🐍
@@ -8,8 +9,8 @@ you're in the right place!
 
 ## About Me
 
-👋 Hi, I'm Krishna, a 12th-grade student or uhmm! just tool 12th Board So,
- no more 12th-Grade Student untill result is declared.
+👋 Hi, I'm Krishna, a 12th-grade student or uhmm! just took 12th Board So,
+ no more 12th-Grade Student until the result is declared.
 And I'm from the beautiful city of Lucknow, India. I'm passionate about
  programming, especially in Python.
 
@@ -20,52 +21,6 @@ And I'm from the beautiful city of Lucknow, India. I'm passionate about
 Ever wondered how to convert numbers into words? Look no further!
 With this handy Python script, you can easily convert any number
 into its word representation.
-
-### [2. Rock, Paper, Scissors Game](#rock-paper-scissors-game)
-
-Feeling competitive? Dive into the classic game of Rock, Paper,
-Scissors with this Python program. Test your luck against the computer
-and see who comes out on top!
-
-### [3. Personal Dictionary](#personal-dictionary)
-
-Expand your vocabulary with this Personal Dictionary Python script.
- It uses the NLTK library to provide definitions, synonyms, and
- antonyms for any word you enter.
-
-### [4. Survey GUI App](#survey-gui-app)
-
-Add some fun to your day with this Survey GUI App built using Tkinter.
-Ans quirky questions and see the responses in real-time!
-
-### [5. Message Spammer](#message-spammer)
-
-Need to annoy your friends (or test a chat app's resilience)? This Python script lets you spam messages with random insults. Use it responsibly!
-
-### [6. QR Code Generato] (##qr-code-generator)
-
-Got a crush? Too shy to let your feelings out? Say no more! Our QR Code Generator is here to save the day. Create a QR code, print it out, and stick it right on your chest. Next time you see your crush, just point at your heart and say, “I’ve got a secret message for you, but you’ll need to scan to reveal it.” Who knows, your high-tech confession might just win their heart! 🥰
-
-### [6. Link to Project Zip File](#link-to-project-zip-file) - Coming soon!
-
-Stay tuned for a downloadable zip file containing all my Python projects for your convenience.
-
-## Contributions
-
-Got ideas for new Python projects or improvements to existing ones? Feel free to fork this repository and submit your pull requests. Let's collaborate and create some awesome Python magic together!
-
-## Let's Connect
-
-📫 Want to chat about Python, programming, or anything else under the sun? Hit me up on [Youtube](https://youtube.com/krishsscodes06)!
-
-Enjoy exploring my Python playground, and happy coding! 🎉
-
----
-Take a look at'em.
-
----
-```
-## Number to Words Converter
 
 ```python
 def number_to_words(num):
@@ -89,16 +44,15 @@ def number_to_words(num):
 user_input = int(input("Enter a number: "))
 result = number_to_words(user_input)
 print(result)
-
 ```
 
----
+### [2. Rock, Paper, Scissors Game](#rock-paper-scissors-game)
 
-## Rock, Paper, Scissors Game
+Feeling competitive? Dive into the classic game of Rock, Paper,
+Scissors with this Python program. Test your luck against the computer
+and see who comes out on top!
 
 ```python
-# program of Rock paper scissor
-
 import random
 import time
 
@@ -146,12 +100,15 @@ while True:
 
 ```
 
----
+### [3. Personal Dictionary](#personal-dictionary)
 
-## Personal Dictionary
+Expand your vocabulary with this Personal Dictionary Python script.
+ It uses the NLTK library to provide definitions, synonyms, and
+ antonyms for any word you enter.
 
 ```python
-# use pip install nltk to install the nltk (Natural Language Tookkit) python library
+# use -- pip install nltk
+   to install the nltk (Natural Language Tookkit) python library
 
 import nltk  # (Natural Language Tookkit)
 from nltk.corpus import wordnet
@@ -163,7 +120,9 @@ print("Welcome to Personal Dictionary")
 choice = 'y'
 while choice == 'y':
     word = input('Enter the word: ')
-    synsets = wordnet.synsets(word)
+    synsets = word
+
+net.synsets(word)
 
     definitions = []
     for synset in synsets:
@@ -198,15 +157,21 @@ while choice == 'y':
 
     choice = input("\nDo you want to continue(y/n)")
     
-print("Thankyou for using our service.")
+print("Thank you for using our service.")
 
 ```
 
----
+### [4. Survey GUI App](#survey-gui-app)
 
-## Survey GUI App
+Add some fun to your day with this Survey GUI App built using Tkinter.
+Answer quirky questions and see the responses in real-time!
 
 ```python
+"""In order to run this program Install pyautogui by executing
+ the following command in your terminal or command prompt:
+
+    -- pip install pyautogui
+"""
 
 from tkinter import*
 from tkinter import messagebox
@@ -247,34 +212,35 @@ button_2.bind("<Enter>", movetoo)
 root.overrideredirect(True)
 root.mainloop()
 ```
----
 
-## Message Spammer
+### [5. Message Spammer](#message-spammer)
+
+Need to annoy your friends (or test a chat app's resilience)? This Python script lets you spam messages with random insults. Use it responsibly!
 
 ```python
 """
 Let's Spam - Important Message before running the code.
 
-Install pyautogui by 
-    -- pip install pyautogui <- run it on terminal or cmd
+Install pyautogui by executing the following command in your
+terminal or command prompt:
 
-Now read below message.
-Keep in mind place The Code Editor and Your \
-Message App Side by side in order to terminate the 
-program during any probelem. 
-If needed to close the program on runtime\
-then, if you are using IDLE So, simply take your cursor\
-to close button of Interpreter and click
-on close button [x]. \
-if using another like VSCode Terminate Terminal. """
+    -- pip install pyautogui
 
+Now, please read the message below carefully.
+Keep in mind to position your Code Editor and your messaging
+ application side by side, so you can quickly terminate
+the program if any problems arise.
+If you need to close the program during runtime:
+    - If you are using IDLE, simply take your cursor to the
+ close button of the Interpreter and click on the 'x' button.
+    - If you are using another editor like VSCode, terminate
+the terminal running the program."""
     
 import pyautogui
 import random
 import time
 
-n = int(input("Enter number of message you would like\
-to send: "))
+n = int(input("Enter number of message you would like to send: "))
 
 # List of messages
 lst = ['Monkey', 'Donkey', 'Dog','Pig','Idiot','Bastard']
@@ -312,14 +278,63 @@ print(f"Script execution completed in {total_time:.2f} seconds.")
 
 ```
 
+### [6. QR Code Generator](##qr-code-generator)
+
+Feeling like a modern-day Romeo or Juliet? Use this QR Code Generator to express your heart's desires without saying a word. Simply create a QR code, paste it on your chest, and let your crush decode your hidden messages with a simple scan. Who needs love letters when you've got QR codes? 🥰
+
+```python
+""" First install
+        -- pip install qrcode[pil]
+    in order to use this code.  """
+
+import qrcode
+from datetime import datetime
+
+# Input your data here
+data = "Here, you can generate your own Qr code just follow the link- https://t.me/pythonbykrishss/40"
+
+# Generate QR code
+qr = qrcode.QRCode(
+    version=1,
+    error_correction=qrcode.constants.ERROR_CORRECT_L,
+    box_size=10,
+    border=4,
+)
+qr.add_data(data)
+qr.make(fit=True)
+
+# Create an image from the QR Code instance
+img = qr.make_image(fill_color="black", back_color="white")
+
+# Get the current date and time
+current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+# Combine the filename with the current date and time
+filename = f"my_qr_code_{current_datetime}.png"
+
+# Save the image with the updated filename
+img.save(filename)
+print("Qr code generated check out in your directory.")
+```
+
+### [7. Link to Project Zip File](#link-to-project-zip-file) - Coming soon!
+
+Stay tuned for a downloadable zip file containing all my Python projects for your convenience.
+
+## Contributions
+
+Got ideas for new Python projects or improvements to existing ones? Feel free to fork this repository and submit your pull requests. Let's collaborate and create some awesome Python magic together!
+
+## Let's Connect
+
+📫 Want to chat about Python, programming, or anything else under the sun? Hit me up on [YouTube]([https://youtube.com/krishsscodes06](https://youtube.com/@krishsscodes?si=IfXHPSyjYNGbhPC-))!
+
+Enjoy exploring my Python playground, and happy coding! 🎉
+
 ---
+Take a look at'em.
 
-## Link to Project Zip File
+---
+``` 
 
-```markdown
-[Link to Project Zip File](#)
-```
-
----  
-```
-
+This README should display the project descriptions along with the code snippets for each project, making it more convenient for users to find both the descriptions and the corresponding code.
