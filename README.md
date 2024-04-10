@@ -1,4 +1,3 @@
-To enable users to navigate directly to each project by clicking on the headings, you can utilize anchor links in Markdown. Here's how you can modify the README to include anchor links:
 
 ```markdown
 # Welcome to Krishna's Python Playground! 🐍
