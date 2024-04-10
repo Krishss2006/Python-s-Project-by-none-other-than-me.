@@ -164,8 +164,10 @@ print("Thank you for using our service.")
 ### [4. Survey GUI App](#survey-gui-app)
 
 Add some fun to your day with this Survey GUI App built using Tkinter.
-Answer quirky questions and see the responses in real-time!
-
+It's a simple tkinter application that asks the user whether they are crazy 
+(in a humorous way, of course). If the user clicks "Yes," it thanks them for 
+accepting, and if they hover over the "No" button, it moves around randomly 
+to dodge clicking.
 ```python
 """In order to run this program Install pyautogui by executing
  the following command in your terminal or command prompt:
@@ -215,7 +217,8 @@ root.mainloop()
 
 ### [5. Message Spammer](#message-spammer)
 
-Need to annoy your friends (or test a chat app's resilience)? This Python script lets you spam messages with random insults. Use it responsibly!
+Need to annoy your friends (or test a chat app's resilience)? This Python script
+lets you spam messages with random insults. Use it responsibly!
 
 ```python
 """
@@ -280,7 +283,10 @@ print(f"Script execution completed in {total_time:.2f} seconds.")
 
 ### [6. QR Code Generator](##qr-code-generator)
 
-Feeling like a modern-day Romeo or Juliet? Use this QR Code Generator to express your heart's desires without saying a word. Simply create a QR code, paste it on your chest, and let your crush decode your hidden messages with a simple scan. Who needs love letters when you've got QR codes? 🥰
+Feeling like a modern-day Romeo or Juliet? Use this QR Code Generator to express 
+your heart's desires without saying a word. Simply create a QR code, paste it on 
+your chest, and let your crush decode your hidden messages with a simple scan.
+Who needs love letters when you've got QR codes? 🥰
 
 ```python
 """ First install
