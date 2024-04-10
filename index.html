@@ -20,14 +20,27 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        nav a {
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
             color: #fff;
             text-decoration: none;
-            margin: 0 10px;
             transition: color 0.3s;
         }
-        nav a:hover {
+        nav ul li a:hover {
             color: #00ff00;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
         }
         .dropdown-content {
             display: none;
@@ -72,16 +85,18 @@
     </header>
 
     <nav>
-        <a href="#home">Home</a>
-        <div class="dropdown">
-            <a href="#" class="dropbtn">Projects</a>
-            <div class="dropdown-content">
-                <a href="#number-to-words-converter">Number to Words Converter</a>
-                <a href="#rock-paper-scissors-game">Rock, Paper, Scissors Game</a>
-                <!-- Add more project links here -->
-            </div>
-        </div>
-        <a href="#contact">Contact Me</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Projects</a>
+                <div class="dropdown-content">
+                    <a href="#number-to-words-converter">Number to Words Converter</a>
+                    <a href="#rock-paper-scissors-game">Rock, Paper, Scissors Game</a>
+                    <!-- Add more project links here -->
+                </div>
+            </li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
     </nav>
 
     <div id="home">
@@ -102,13 +117,16 @@
     </div>
 
     <!-- Add more project sections as needed -->
-
+    
     <div id="contact">
         <h2>Contact Me</h2>
         <p>Feel free to reach out to me if you have any questions, suggestions, or just want to say hello!</p>
         <!-- Add contact form or contact information here -->
     </div>
-
+    <br>
+    <br>
+    <br>
+    <br>
     <footer>
         &copy; 2024 Krishna - All Rights Reserved
     </footer>
