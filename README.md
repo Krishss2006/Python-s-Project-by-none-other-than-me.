@@ -336,11 +336,4 @@ Got ideas for new Python projects or improvements to existing ones? Feel free to
 📫 Want to chat about Python, programming, or anything else under the sun? Hit me up on [YouTube]([https://youtube.com/krishsscodes06](https://youtube.com/@krishsscodes?si=IfXHPSyjYNGbhPC-))!
 
 Enjoy exploring my Python playground, and happy coding! 🎉
-
----
-Take a look at'em.
-
----
-``` 
-
-This README should display the project descriptions along with the code snippets for each project, making it more convenient for users to find both the descriptions and the corresponding code.
+```
