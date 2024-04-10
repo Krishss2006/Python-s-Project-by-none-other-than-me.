@@ -47,7 +47,7 @@ Got ideas for new Python projects or improvements to existing ones? Feel free to
 
 ## Let's Connect
 
-📫 Want to chat about Python, programming, or anything else under the sun? Hit me up on [Twitter](https://twitter.com/KrishnaPythonDev)!
+📫 Want to chat about Python, programming, or anything else under the sun? Hit me up on [Youtube](https://youtube.com/krishsscodes06)!
 
 Enjoy exploring my Python playground, and happy coding! 🎉
 
