@@ -1,6 +1,3 @@
-Sure, here's the updated README with the code snippets placed right after the project descriptions:
-
-```markdown
 # Welcome to Krishna's Python Playground! 🐍
 
 Hey there! Welcome to my corner of GitHub where I store all my Python projects.
