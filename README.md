@@ -320,13 +320,53 @@ img.save(filename)
 print("Qr code generated check out in your directory.")
 ```
 
+### [7. ASCII Art](#ascii-art)
+
+Hey there! Are you tired of plain old images? Want to spice things up with some ASCII art? Look no further! The ASCII Art Converter is here to turn your boring images into exciting text-based masterpieces!
+
+## Features
+- **Drag and Drop:** Simply drag and drop your image onto the GUI, and let the magic happen!
+- **Customizable:** Adjust the width of the output ASCII art to suit your preferences.
+- **Progress Bar:** Track the conversion progress with the handy progress bar.
+- **Easy to Use:** No complicated setups or installations required. Just run the script and start converting!
+
+## How to Use
+1. **Drag and Drop:** Drag your image file onto the designated area in the GUI.
+2. **Wait for it:** Sit back and relax as the script works its magic.
+3. **Enjoy:** Once the conversion is complete, marvel at your ASCII masterpiece!
+
+## Requirements
+- Python 3.x
+- Tkinter
+- tkinterdnd2
+- PIL (Python Imaging Library)
+- NumPy
+
+## Usage
+```python
+python ascii_converter.py
+```
+
+Click [Here](LICENSE) to access the code.
+
+## Example
+Check out the `example` folder to see some cool before-and-after examples of images converted into ASCII art!
+
+
+
 ### [7. Link to Project Zip File](#link-to-project-zip-file) - Coming soon!
 
 Stay tuned for a downloadable zip file containing all my Python projects for your convenience.
 
-## Contributions
+## Contributing
+Found a bug? Have an awesome feature idea? Contributions are welcome! Just fork the repository, make your changes, and submit a pull request.
+Let's collaborate and create some awesome Python magic together!
 
-Got ideas for new Python projects or improvements to existing ones? Feel free to fork this repository and submit your pull requests. Let's collaborate and create some awesome Python magic together!
+## Credits
+This project was inspired by a love for python and a desire to make smile on your face. Thanks to all the open-source libraries that made this possible!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
 ## Let's Connect
 
