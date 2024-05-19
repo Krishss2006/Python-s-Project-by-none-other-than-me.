@@ -1,3 +1,12 @@
+'''
+Pip to be installed before running the program.
+    pip install tkinter
+    pip install tkinterdnd2
+    pip install pillow
+    pip install numpy
+'''
+
+
 import tkinter as tk
 from tkinterdnd2 import DND_FILES, TkinterDnD
 from PIL import Image
